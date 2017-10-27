@@ -4,7 +4,7 @@ Launch as Standalone :
 
 `chmod +x ./script.js`
 
-`sudo ./script.js`
+`./script.js` or `sudo ./script.js`
 
 Or import it :
 

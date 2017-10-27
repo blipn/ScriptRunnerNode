@@ -1,10 +1,11 @@
 {
   "name": "scriptrunnernode",
   "version": "1.0.0",
-  "description": "run synchronously the Commands in data.json data field",
+  "description": "run some Commands in a shell from node.js",
   "main": "script.js",
   "scripts": {
-    "test": "./script.js"
+    "start": "node ./script.js",
+    "test": "node ./test.js"
   },
   "repository": {
     "type": "git",
@@ -12,7 +13,9 @@
   },
   "keywords": [
     "bash",
-    "node"
+    "node",
+    "shell",
+    "Commands"
   ],
   "author": "blipn",
   "license": "ISC",
