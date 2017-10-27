@@ -1,5 +1,7 @@
 **ScriptRunnerNode**
 
+let you run some bash commands in a shell from node.js
+
 ---
 
 **Launch as Standalone :**
