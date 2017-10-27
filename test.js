@@ -1,4 +1,10 @@
 #!/usr/bin/env node
 // This script shows how to use this module
-const runCommand = require("./script");
-runCommand.runCommand('echo test');
+
+const SRN = require("./script");
+
+SRN.runCommand('ls -al', () => {
+  console.log('it works');
+});
+
+SRN.runCommands(['echo SRN','ls','ls -al', 'echo it works']);
