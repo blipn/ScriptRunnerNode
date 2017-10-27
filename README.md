@@ -2,6 +2,10 @@
 
 let you run some bash commands in a shell from node.js
 
+This package run with no dependency 
+
+Working on node 6
+
 ---
 
 **Launch as Standalone :**
