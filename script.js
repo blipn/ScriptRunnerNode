@@ -2,12 +2,11 @@
 // This script run synchronously the Commands in data.json data field
 'use strict';
 
-const { spawn, exec } = require('child_process');
-
+const { exec } = require('child_process');
 const data = require('./data.json');
 
 function runCommands(cmds) {
-  if(cmds.length > 0){
+  if(cmds && cmds.length > 0){
     runCommand(cmds[0], ()=> {
       cmds.splice(0,1);
       runCommands(cmds);
@@ -37,3 +36,8 @@ function runCommand(cmd, next) {
 }
 
 runCommands(data.data);
+
+module.exports = {
+  runCommand,
+  runCommands,
+};

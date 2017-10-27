@@ -1,0 +1,23 @@
+{
+  "name": "scriptrunnernode",
+  "version": "1.0.0",
+  "description": "run synchronously the Commands in data.json data field",
+  "main": "script.js",
+  "scripts": {
+    "test": "./script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blipn/ScriptRunnerNode.git"
+  },
+  "keywords": [
+    "bash",
+    "node"
+  ],
+  "author": "blipn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blipn/ScriptRunnerNode/issues"
+  },
+  "homepage": "https://github.com/blipn/ScriptRunnerNode#readme"
+}

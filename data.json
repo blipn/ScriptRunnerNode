@@ -1,9 +1,6 @@
 {
   "data" : [
-    "docker ps -a",
-    "docker run -d --name mongo -v shared:/data/db mongo",
-    "docker ps",
-    "docker stop mongo",
-    "docker ps"
+    "echo ScriptRunnerNode",
+    ""
   ]
 }
