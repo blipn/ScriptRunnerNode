@@ -1,6 +1,6 @@
 {
   "name": "scriptrunnernode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "run some Commands in a shell from node.js",
   "main": "script.js",
   "scripts": {

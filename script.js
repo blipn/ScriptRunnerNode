@@ -15,13 +15,16 @@ function runCommands(cmds) {
 }
 
 function runCommand(cmd, next) {
+  let res = "";
   const run = exec(cmd);
 
   run.stdout.on('data', (data) => {
+    res+=data;
     console.log(`${data}`);
   });
 
   run.stderr.on('data', (data) => {
+    res+=data;
     console.error(`ERROR: ${data}`);
   });
 
@@ -30,7 +33,7 @@ function runCommand(cmd, next) {
       console.error(`ERROR: child process exited with code ${code}`);
     }
     if(next){
-      next();
+      next(res);
     }
   });
 }

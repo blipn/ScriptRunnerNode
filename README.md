@@ -19,9 +19,10 @@ Working on node 6
 **Or import it :**
 
 ```javascript
-const SRN = require("./script");
-SRN.runCommand('ls -al', () => {
-  console.log('it works');
+SRN.runCommand('echo yes', (res) => {
+  if(res.includes('yes')){
+    console.log('it works ! i got a yes');
+  }
 });
 ```
 **Or** 
