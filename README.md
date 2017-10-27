@@ -1,8 +1,8 @@
-#ScriptRunnerNode
+**ScriptRunnerNode**
 
 ---
 
-####Launch as Standalone :
+**Launch as Standalone :**
 
 `chmod +x ./script.js`
 
@@ -10,7 +10,7 @@
 
 ---
 
-####Or import it :
+**Or import it :**
 
 ```javascript
 const SRN = require("./script");
