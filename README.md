@@ -1,8 +1,8 @@
 **ScriptRunnerNode**
 
-let you run some bash commands in a shell from node.js
+Lets you run some bash commands in a shell from node.js
 
-This package run with no dependency 
+This package runs with no dependency 
 
 Working on node 6
 
@@ -21,7 +21,7 @@ Working on node 6
 ```javascript
 SRN.runCommand('echo yes', (res) => {
   if(res.includes('yes')){
-    console.log('it works ! i got a yes');
+    console.log('it works, I got a yes !');
   }
 });
 ```
